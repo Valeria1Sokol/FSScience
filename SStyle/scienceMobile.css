@@ -109,7 +109,7 @@
         top: 1.5vw;
         left: 10.5vw;
         -webkit-animation: float2M ease-in-out 6s infinite;
-        animation: float2 ease-in-out 6s infinite;
+        animation: float2M ease-in-out 6s infinite;
 
     }
 
@@ -128,7 +128,7 @@
         top: -2.5vw;
         left: 4vw;
            -webkit-animation: float2M ease-in-out 5s infinite;
-        animation: float2 ease-in-out 5s infinite;
+        animation: float2M ease-in-out 5s infinite;
 
     }
 
