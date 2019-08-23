@@ -1,0 +1,214 @@
+.sec1 .sec1Info {
+
+    width: 36vw;
+}
+
+.sec1 .textInfo_p {
+    width: 34vw;
+}
+
+@media all and (max-width:1280px) {
+    .sec1 .sec1Info {
+
+        width: 38vw;
+    }
+
+    .sec1 .textInfo_p {
+        width: 32vw;
+    }
+}
+
+@media all and (max-width:800px) {
+    .sec1 .sec1Info {
+
+        width: 40vw;
+    }
+
+    .sec1 .textInfo_p {
+        width: 32vw;
+    }
+
+    .sec3Box .sec3Info {
+
+        margin: 0 4vw 0 0;
+        width: 22vw;
+    }
+
+    .sec4 {
+
+        padding: 10vw 3vw;
+    }
+
+    .lastTd {
+
+        padding-left: 1.5vw;
+    }
+}
+
+@media all and (max-width:768px) {
+    .sec1 .sec1Info {
+
+        width: 100%;
+    }
+
+    .sec1 .textInfo_p {
+        width: 100%;
+    }
+
+    .sec3Box .sec3Info {
+
+        width: 100%;
+    }
+
+    .sec4 {
+        padding: 10vw 7vw 17vw 8vw;
+    }
+}
+
+@media all and (max-width:414px) {
+    .tr6 .td1 {
+        bottom: 8.5vw;
+    }
+
+    .tr7 .td1 {
+        bottom: 10vw;
+    }
+
+    .tr8 .td1 {
+        bottom: 11.6vw;
+    }
+
+    .tr9 .td1 {
+        bottom: 13.3vw;
+    }
+
+    .tr1 .lastTd,
+    .tr2 .lastTd,
+    .tr3 .lastTd,
+    .tr14.lastTd,
+    .tr5 .lastTd,
+    .tr6 .lastTd,
+    .tr7 .lastTd,
+    .tr8 .lastTd,
+    .tr9 .lastTd {
+        left: -1vw;
+    }
+
+    .tr4 .lastTd {
+        top: -5.3vw;
+    }
+
+    .tr5 .lastTd {
+        top: -7vw;
+    }
+
+    .tr6 .lastTd {
+        top: -8.7vw;
+    }
+
+    .tr7 .lastTd {
+        top: -9.8vw;
+    }
+
+    .tr8 .lastTd {
+        top: -11.3vw;
+    }
+
+    .tr9 .lastTd {
+        top: -12.8vw;
+    }
+}
+
+@media all and (max-width:375px) {
+    .tr1 .lastTd {
+        top: -1vw;
+    }
+
+    .tr2 .lastTd {
+        top: -2.6vw;
+    }
+
+    .tr3 .lastTd {
+        top: -4.2vw;
+    }
+
+    .tr4 .lastTd {
+        top: -5.8vw;
+    }
+
+    .tr5 .lastTd {
+        top: -7.5vw;
+    }
+
+    .tr6 .lastTd {
+        top: -9.2vw;
+    }
+
+    .tr7 .lastTd {
+        top: -10.3vw;
+    }
+
+    .tr8 .lastTd {
+        top: -11.9vw;
+    }
+
+    .tr9 .lastTd {
+        top: -13.3vw;
+    }
+
+    .tr4 .td1 {
+        bottom: 5.4vw;
+    }
+
+    .tr6 .td1 {
+        bottom: 8.4vw;
+    }
+
+    .tr7 .td1 {
+        bottom: 10.7vw;
+    }
+
+    .tr8 .td1 {
+        bottom: 12vw;
+    }
+
+    .tr9 .td1 {
+        bottom: 13.7vw;
+    }
+}
+@media all and (max-width:320px)
+{
+        .tr4 .td1 {
+    bottom: 6.5vw;
+}
+    .tr5 .td1 {
+    bottom: 7.7vw;
+}
+    .tr6 .td1 {
+    bottom: 9.7vw;
+}
+    .tr8 .td1 {
+    bottom: 12.8vw;
+}
+    .tr9 .td1 {
+    bottom: 14.5vw;
+}
+       .tr4 .lastTd {
+    top: -6.2vw;
+}
+    .tr5 .lastTd {
+    top: -8.1vw;
+}
+    .tr6 .lastTd {
+    top: -9.4vw;
+}
+    .tr7 .lastTd {
+    top: -11vw;
+}
+    .tr8 .lastTd {
+    top: -12.6vw;
+}
+    .tr9 .lastTd {
+    top: -14.1vw;
+}
+}
