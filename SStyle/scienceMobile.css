@@ -61,16 +61,16 @@
 
         width: 20.9vw;
         height: 20.9vw;
-    margin-top: -0.5vw;
-    margin-left: 0.5vw;
+        margin-top: -0.5vw;
+        margin-left: 0.5vw;
     }
 
     .sec1Circle3 {
 
-      width: 22.4vw;
-    height: 22.4vw;
-    margin-left: 0.9vw;
-    margin-top: 0.2vw;
+        width: 22.4vw;
+        height: 22.4vw;
+        margin-left: 0.9vw;
+        margin-top: 0.2vw;
     }
 
     .sec1Circle2 {
@@ -79,9 +79,9 @@
         left: -1.3vw;
         top: 1vw;
         transform: rotate(0deg);
-            animation: roundM 15s infinite;
-            -webkit-animation: roundM 15s infinite;
-            animation-timing-function: steps(1, end);
+        animation: roundM 15s infinite;
+        -webkit-animation: roundM 15s infinite;
+        animation-timing-function: steps(1, end);
 
     }
 
@@ -99,6 +99,8 @@
 
         width: 2.5vw;
         top: -8.5vw;
+        -webkit-animation: floatM ease-in-out 5s infinite;
+        animation: floatM ease-in-out 5s infinite;
     }
 
     .drop2 {
@@ -106,6 +108,8 @@
         width: 3.2vw;
         top: 1.5vw;
         left: 10.5vw;
+        -webkit-animation: float2M ease-in-out 6s infinite;
+        animation: float2 ease-in-out 6s infinite;
 
     }
 
@@ -113,6 +117,8 @@
 
         width: 5.3vw;
         top: 6.2vw;
+          -webkit-animation: floatM ease-in-out 6s infinite;
+        animation: floatM ease-in-out 6s infinite;
 
     }
 
@@ -121,15 +127,21 @@
         width: 2.4vw;
         top: -2.5vw;
         left: 4vw;
+           -webkit-animation: float2M ease-in-out 5s infinite;
+        animation: float2 ease-in-out 5s infinite;
 
     }
 
     .drop3 {
         width: 6.3vw;
+        -webkit-animation: float3M ease-in-out 7s infinite;
+        animation: float3M ease-in-out 7s infinite;
     }
+
+
     .sec1Circle1 p span img {
-    width: 2.7vw;
-}
+        width: 2.7vw;
+    }
 
     .sec2 {
         padding: 10vw 7vw 17vw 8vw;

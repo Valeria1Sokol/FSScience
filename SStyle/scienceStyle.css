@@ -169,18 +169,13 @@ header {
     background-size: cover;
     position: relative;
     box-sizing: border-box;
-    transition: all 5s;
-
-    box-sizing: border-box;
     z-index: 1;
     left: -0.7vw;
     top: 0.5vw;
     transform: rotate(-1deg);
-/*
     -webkit-animation: round 15s infinite;
     animation: round 15s infinite;
     animation-timing-function: steps(1, end);
-*/
 
 }
 
