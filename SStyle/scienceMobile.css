@@ -12,7 +12,7 @@
         width: 100vw;
         flex-direction: column;
         align-items: center;
-        padding: 10vw 7vw 17vw 8vw;
+        padding: 10vw 7vw 12vw 8vw;
     }
 
     .sec1 .sec1Info h1 {
@@ -54,7 +54,7 @@
         width: 101%;
         height: 85.8vw;
         padding-top: 1vw;
-        margin: 5vw 1.5vw 8vw 0;
+           margin: 12vw 1.5vw 13vw 0;
     }
 
     .sec1Circle1 {
@@ -117,7 +117,7 @@
 
         width: 5.3vw;
         top: 6.2vw;
-          -webkit-animation: floatM ease-in-out 6s infinite;
+        -webkit-animation: floatM ease-in-out 6s infinite;
         animation: floatM ease-in-out 6s infinite;
 
     }
@@ -127,7 +127,7 @@
         width: 2.4vw;
         top: -2.5vw;
         left: 4vw;
-           -webkit-animation: float2M ease-in-out 5s infinite;
+        -webkit-animation: float2M ease-in-out 5s infinite;
         animation: float2M ease-in-out 5s infinite;
 
     }
@@ -163,6 +163,8 @@
     .sec2Img {
         width: 95%;
         margin: 10vw 0;
+        height: 80vw;
+        background-image: url(../SImg/sec2Img1mob.png);
     }
 
     .sec2 .sec2Info p {
@@ -175,29 +177,79 @@
     .sec2Text {
 
         padding: 0;
-    }
-
-    .sec2Icon img {
-        width: 24vw;
+        width: 100%;
     }
 
     .sec2Icon {
+        width: 24vw;
+        height: 24vw;
+    }
+
+    .sec2Icons {
 
         margin: 7vw 0;
     }
 
+
     .sec2Img2 {
-        width: 100%;
+
+        width: 95%;
         margin: 4vw 0 10vw;
+        height: 87vw;
+        padding: 0 0 7vw;
+        background-image: url(../SImg/sec2Img2mob.png);
     }
 
-    .sec2Icon .arrow {
+    .sec2Icons .arrow {
         width: 9vw;
     }
 
-    .sec2Text2 .sec2Icon {
+    .sec2Text2 .sec2Icons {
         padding: 0 11.7vw;
     }
+
+    .sec2Icon p {
+        font-size: 2.2vw !important;
+        line-height: 1.3 !important;
+    }
+
+    .icon1 {
+        background-image: url(../SImg/Light1.png);
+
+    }
+
+    .icon2 {
+        background-image: url(../SImg/pollutant1.png);
+        padding: 3.2vw 0 0;
+    }
+
+    .icon3 {
+        background-image: url(../SImg/OS1.png);
+        padding: 3.2vw 0 0;
+    }
+
+    .icon1 .p1 {
+        left: 0vw;
+        top: 8.2vw;
+    }
+
+    .icon1 .p2 {
+        left: -3vw;
+        top: 7.7vw;
+    }
+
+    .icon1 .p3 {
+        left: -3.1vw;
+        top: 6vw;
+    }
+    .icon12 {
+    background-image: url(../SImg/Stress1.png);
+     padding: 0 0 4.7vw;
+}
+    .icon22 {
+    background-image: url(../SImg/Healthy1.png);
+    padding: 0 0 4.7vw;
+}
 
     .sec3Info {
         justify-content: center;
@@ -452,7 +504,7 @@
     }
 
     .sec1 {
-        padding: 21vw 7vw 17vw 8vw;
+        padding: 21vw 7vw 10vw 8vw;
 
     }
 
