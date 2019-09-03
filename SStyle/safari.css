@@ -64,7 +64,13 @@
         padding: 10vw 7vw 17vw 8vw;
     }
 }
-
+@media all and (max-width:425px){
+    .label span
+    {
+        letter-spacing: 0px;
+    }
+    
+}
 @media all and (max-width:414px) {
     .tr6 .td1 {
         bottom: 8.5vw;
