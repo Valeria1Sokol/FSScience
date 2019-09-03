@@ -110,8 +110,8 @@ header {
     background-image: url(../SImg/sec1BG.png);
     background-repeat: no-repeat;
     background-size: cover;
-    width: 43vw;
-    height: 43vw;
+    width: 38vw;
+    height: 38vw;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -126,30 +126,15 @@ header {
     justify-content: center;
     align-items: center;
     border-radius: 50%;
-    width: 10.5vw;
-    height: 10.5vw;
-    background-color: #f7a1a8;
+    width: 9.5vw;
+    height: 9.5vw;
     color: white;
     position: absolute;
     z-index: 2;
     margin-left: 0.3vw;
+    background-color: rgb(247, 161, 168);
 }
 
-.sec1Circle3 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 50%;
-    width: 11vw;
-    height: 11.4vw;
-    background-image: url(../SImg/pink.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: absolute;
-    z-index: 0;
-    margin-left: 0.5vw;
-    margin-top: 0.4vw;
-}
 
 .sec1Circle1 p {
     font-family: "Open Sans bold";
@@ -162,20 +147,20 @@ header {
 }
 
 .sec1Circle2 {
-    width: 13vw;
-    height: 11.4vw;
+    width: 12vw;
+    height: 10.2vw;
     background-image: url(../SImg/pink+indicator.png);
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
     box-sizing: border-box;
     z-index: 1;
-    left: -0.7vw;
-    top: 0.5vw;
-    transform: rotate(-1deg);
-    -webkit-animation: round 15s infinite;
-    animation: round 15s infinite;
-    animation-timing-function: steps(1, end);
+    transform: rotate(0deg) translateX(-10px) translateY(5px);
+/*
+    -webkit-animation: round 35s infinite ;
+    animation: round 35s infinite ;
+*/
+
 
 }
 
@@ -185,7 +170,7 @@ header {
     justify-content: center;
     align-items: center;
     position: absolute;
-    margin-left: -13.7vw;
+    margin-left: -11.7vw;
 }
 
 .drop1,
@@ -215,7 +200,7 @@ header {
 }
 
 .drop3 {
-    width: 3.3vw;
+    width: 3vw;
     -webkit-animation: float3 ease-in-out 7s infinite;
     animation: float3 ease-in-out 7s infinite;
 }
@@ -223,7 +208,7 @@ header {
 .drop4 {
     top: 2.2vw;
     left: -3vw;
-    width: 2.3vw;
+    width: 2vw;
     -webkit-animation: float ease-in-out 3s infinite;
     animation: float ease-in-out 3s infinite;
 
@@ -232,7 +217,7 @@ header {
 .drop5 {
     top: 0.5vw;
     left: 2vw;
-    width: 1.4vw;
+    width: 1.2vw;
     -webkit-animation: float2 ease-in-out 5s infinite;
     animation: float2 ease-in-out 5s infinite;
 
@@ -434,7 +419,7 @@ header {
     flex-direction: row;
     justify-content: center;
     align-items: flex-start;
-    padding: 1.8vw 2vw;
+    padding: 2vw 2vw 1.8vw;
     box-sizing: border-box;
     text-align: center;
 }
@@ -756,6 +741,10 @@ header {
     .td3 {
         width: 19vw;
     }
+    .lastTd {
+   
+    padding-left: 1.6vw;
+}
 }
 
 @media all and (max-width:1024px) {

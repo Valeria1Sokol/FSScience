@@ -20,7 +20,8 @@
         letter-spacing: -0.2vw;
         text-align: center;
         width: 100%;
-        margin: 0.83em 0 2vw;
+        margin: 0.63em 0 2vw;
+        line-height: 7.1vw;
     }
 
     .sec1 .sec1Info h3 {
@@ -54,7 +55,7 @@
         width: 101%;
         height: 85.8vw;
         padding-top: 1vw;
-           margin: 12vw 1.5vw 13vw 0;
+           margin: 6vw 1.5vw 7vw 0;
     }
 
     .sec1Circle1 {
@@ -74,14 +75,13 @@
     }
 
     .sec1Circle2 {
-        width: 27vw;
-        height: 24.4vw;
-        left: -1.3vw;
-        top: 1vw;
-        transform: rotate(0deg);
-        animation: roundM 15s infinite;
-        -webkit-animation: roundM 15s infinite;
-        animation-timing-function: steps(1, end);
+    width: 26vw;
+    height: 23vw;
+    left: -1.3vw;
+    top: 0.8vw;
+    transform: rotate(0deg) translateX(-3px) translateY(-2px);
+    -webkit-animation: roundM 35s infinite ;
+    animation: roundM 35s infinite ;
 
     }
 
@@ -157,7 +157,8 @@
         letter-spacing: -0.2vw;
         text-align: center;
         width: 100%;
-        margin: 0.83em 0 2vw;
+        margin: 0.63em 0 2vw;
+        line-height: 7.1vw;
     }
 
     .sec2Img {
@@ -314,7 +315,8 @@
         letter-spacing: -0.2vw;
         text-align: center;
         width: 100%;
-        margin: 0.83em 0 2vw;
+        margin: 0.63em 0 2vw;
+        line-height: 7.1vw;
     }
 
     .sec4 p {
