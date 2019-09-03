@@ -156,10 +156,8 @@ header {
     box-sizing: border-box;
     z-index: 1;
     transform: rotate(0deg) translateX(-10px) translateY(5px);
-/*
     -webkit-animation: round 35s infinite ;
     animation: round 35s infinite ;
-*/
 
 
 }
