@@ -121,9 +121,7 @@
     {
         letter-spacing: -0.4vw;
     }
-      .label {
-        width: 72vw;
-    }
+
 }
 
 @media all and (max-width:375px) {

@@ -1174,7 +1174,7 @@ body {
     }
 
     .label {
-        width: 67vw;
+        width: 65vw;
     }
 
     .navigation_footer ul {
@@ -1322,40 +1322,4 @@ body {
         padding-right: 2vw;
     }
 }
-@media all and (max-width:800px)
-{
-    .label {
-  
-    font-size: 21px;
-}
-    .label img {
-   
-    width: 136px;
-    height: 27px;
-}
-    .label span {
-    font-size: 17px;
-}
-    .footer-navigation li a {
-   
-    padding-right: 1.6vw;
-    font-size: 1.5vw;
-}
-    .reserved {
-   
-    font-size: 12px;
-}
-    .footer-logo {
 
-    padding-right: 0vw;
-}
-    .footer-logo img:first-child {
-    width: 7.4vw;
-    height: 2.3vw;
-    padding-right: 1vw;
-}
-    .footer-logo img {
-    width: 9vw;
-    height: 2.4vw;
-}
-}
