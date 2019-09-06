@@ -44,7 +44,7 @@ header {
     flex-direction: row;
     justify-content: space-between;
     align-items: flex-start;
-    padding: 10vw 7.5vw 8vw 9vw;
+    padding: 10vw 10vw 8vw;
     box-sizing: border-box;
 }
 
@@ -57,7 +57,7 @@ header {
     align-items: flex-start;
     width: 34vw;
     box-sizing: border-box;
-    margin-top: 3.5vw;
+    margin-top: 1vw;
 }
 
 .sec1 .sec1Info h1 {
@@ -156,8 +156,8 @@ header {
     box-sizing: border-box;
     z-index: 1;
     transform: rotate(0deg) translateX(-0.63vw) translateY(0.32vw);
-    -webkit-animation: round 35s infinite ;
-    animation: round 35s infinite ;
+    -webkit-animation: round 15s infinite;
+    animation: round 15s infinite;
 
 
 }
@@ -224,7 +224,7 @@ header {
 .sec2 {
     background-color: #d6f2f7;
     width: 100vw;
-    padding: 9vw 8vw;
+    padding: 9vw 10vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -252,7 +252,6 @@ header {
 .sec2Img {
     width: 39vw;
     height: 39vw;
-    margin: 0 7.5vw 0vw 0;
     background-image: url(../SImg/sec2Img1.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -264,9 +263,9 @@ header {
 }
 
 .sec2Img2 {
-    margin: 0 0vw 0 6.5vw;
-    width: 40.2vw;
-    height: 40vw;
+   
+    width: 39vw;
+    height: 39vw;
     background-image: url(../SImg/sec2Img2.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -291,16 +290,15 @@ header {
     align-items: center;
     justify-content: center;
     box-sizing: border-box;
-    padding: 0 4vw 0 0;
-    width: 45%;
+    width: 44%;
+    margin-left: 3vw;
 
 }
 
 .sec2Text2 {
-
-    padding: 0 0vw 0 4vw;
-
+    margin-left: 0;
 }
+
 
 .sec2Text p {
     font-size: 1.5vw;
@@ -370,15 +368,16 @@ header {
     left: 0vw;
     top: 2.7vw;
 }
+
 .icon12 {
     background-image: url(../SImg/Stress.png);
     align-items: flex-end;
-     padding:0 0 1.7vw;
+    padding: 0 0 1.7vw;
 }
 
 .icon22 {
     background-image: url(../SImg/Healthy.png);
-     align-items: flex-end;
+    align-items: flex-end;
     padding: 0 0 1.7vw;
 
 }
@@ -739,10 +738,11 @@ header {
     .td3 {
         width: 19vw;
     }
+
     .lastTd {
-   
-    padding-left: 1.6vw;
-}
+
+       padding-left: 2.2vw;
+    }
 }
 
 @media all and (max-width:1024px) {
