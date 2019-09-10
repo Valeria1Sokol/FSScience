@@ -720,6 +720,9 @@ body {
     .desktop {
         display: none;
     }
+     .mobile_s {
+        display: block;
+    }
 
     header {
         padding: 0px 12px 0px 12px;

@@ -63,6 +63,10 @@
     .sec4 {
         padding: 10vw 7vw 17vw 8vw;
     }
+     .mobile_s {
+        display: block;
+    }
+    
 }
 @media all and (max-width:425px){
     .label span
